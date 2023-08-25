@@ -1,4 +1,4 @@
-module github.com/jpoz/proto-go-psql-jsonb
+module github.com/jpoz/proto-gen-go-sql
 
 go 1.20
 

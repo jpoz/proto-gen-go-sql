@@ -18,12 +18,9 @@ func main() {
 	})
 }
 
-// generateFile generates a _ascii.pb.go file containing gRPC service definitions.
 func generateFile(gen *protogen.Plugin, file *protogen.File) {
 	filename := file.GeneratedFilenamePrefix + ".pb.jsonb.go"
 	g := gen.NewGeneratedFile(filename, file.GoImportPath)
-
-	// file.Messages[0].GoIdent
 
 	tmpl.Execute(g, file)
 }
