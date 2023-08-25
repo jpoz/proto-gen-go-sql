@@ -1,5 +1,5 @@
-module github.com/jpoz/proto-gen-go-sql
+module github.com/jpoz/protoc-gen-go-sqljson
 
 go 1.20
 
-require google.golang.org/protobuf v1.31.0 // indirect
+require google.golang.org/protobuf v1.31.0
