@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option go_package = "protoc-go-psql-jsonb/example";
+
+message Settings {
+  bool admin = 1;
+  repeated string features = 2;
+}
